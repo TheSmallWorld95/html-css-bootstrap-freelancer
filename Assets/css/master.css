@@ -74,7 +74,7 @@ h1 {
   margin-bottom: 25px;
 }
 
-section.jumbo i {
+i {
   font-size: 30px;
 }
 
@@ -88,7 +88,6 @@ section.jumbo i {
   width: 30%;
   height: 3px;
   background-color: #FFF;
-  color: #FFF;
   margin: 10px 0;
 }
 
@@ -103,6 +102,69 @@ section.jumbo i {
 section.jumbo p {
   font-size: 16px;
   margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+section.card {
+  color: #2c3e50;
+}
+
+section.card .line:before,section.card .line:after {
+  background-color: #2c3e50;
+}
+
+section.card img {
+  width:100%;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+section.about {
+  color: #FFF;
+}
+
+section.about p {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 25px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  text-align: left;
+  font-size: 17px;
+}
+
+section.about a {
+  margin-bottom: 30px;
+}
+
+.fa-download {
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+
+/* UTILITY */
+
+.bg-lightblue {
+  background-color: #1abc9c;
+}
+
+.bg-blue {
+  background-color: #2c3e50;
+}
+
+.btn {
+  color: #FFF;
+  border-radius: 5px;
+}
+
+.btn-border-white {
+  border: 1px solid #FFF;
 }
 
 /* TABLET */
@@ -130,13 +192,22 @@ section.jumbo p {
     font-size: 46px;
   }
 
+  h2 {
+    font-size: 30px;
+  }
+
   .line {
-    width: 40%;
+    width: 30%;
   }
 
   .line:before, .line:after {
     width: 40%;
   }
+
+  section.about p {
+    width: 100%;
+  }
+
 
 }
 
@@ -154,9 +225,7 @@ section.jumbo p {
     padding-top: 190px;
   }
 
-  h1 {
-    font-size: 70px;
-  }
+
 
 
 }
