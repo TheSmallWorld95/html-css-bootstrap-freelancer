@@ -1,0 +1,89 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar-default {
+  background-color: #2c3e50;
+  border: 0;
+  border-radius: 0;
+  font-weight: 700;
+
+}
+
+.navbar-default .navbar-nav>li {
+  background-color: #2c3e50;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.navbar-brand {
+  padding: 22px 15px;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  line-height: 40px;
+  padding: 0 15px;
+}
+
+.navbar-toggle {
+  margin: 15px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #1abc9c;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #1abc9c;
+
+}
+
+
+.navbar-collapse {
+  border: 0;
+}
+
+/* TABLET */
+@media all and (min-width: 768px) {
+  .navbar-default .navbar-brand {
+    height: 50px;
+
+    font-size: 28px;
+  }
+
+  .navbar-default .navbar-nav>li>a, .navbar-brand {
+    padding: 45px 15px;
+    line-height: 20px;
+  }
+
+  .navbar-default{
+    height: 110px;
+  }
+}
+
+/* DESKTOP */
+@media all and (min-width: 1200px) {
+  .navbar-default .navbar-brand {
+    font-size: 34px;
+  }
+
+  .navbar-default{
+    height: 110px;
+  }
+}
