@@ -54,9 +54,55 @@ body {
 
 }
 
-
 .navbar-collapse {
   border: 0;
+}
+
+.jumbo {
+  background-color: #1abc9c;
+  padding-top: 100px;
+  color: #FFF;
+}
+
+.jumbo-img {
+  width: 300px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+section.jumbo i {
+  font-size: 30px;
+}
+
+.line {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.line:before, .line:after {
+  content: "";
+  width: 30%;
+  height: 3px;
+  background-color: #FFF;
+  color: #FFF;
+  margin: 10px 0;
+}
+
+.line:after {
+  float: right;
+}
+
+.line:before {
+  float: left;
+}
+
+section.jumbo p {
+  font-size: 16px;
+  margin-bottom: 40px;
 }
 
 /* TABLET */
@@ -75,6 +121,23 @@ body {
   .navbar-default{
     height: 110px;
   }
+
+  .jumbo {
+    padding-top: 150px;
+  }
+
+  h1 {
+    font-size: 46px;
+  }
+
+  .line {
+    width: 40%;
+  }
+
+  .line:before, .line:after {
+    width: 40%;
+  }
+
 }
 
 /* DESKTOP */
@@ -86,4 +149,14 @@ body {
   .navbar-default{
     height: 110px;
   }
+
+  .jumbo {
+    padding-top: 190px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+
 }
