@@ -3,6 +3,9 @@ body {
 
 }
 
+
+/* NAVBAR */
+
 .navbar-default {
   background-color: #2c3e50;
   border: 0;
@@ -58,6 +61,10 @@ body {
   border: 0;
 }
 
+/* NAVBAR */
+
+/* JUMBOTRON */
+
 .jumbo {
   background-color: #1abc9c;
   padding-top: 100px;
@@ -77,6 +84,112 @@ h1 {
 i {
   font-size: 30px;
 }
+
+
+section.jumbo p {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+/* JUMBOTRON */
+
+/* CARD IMAGE */
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 50px 0;
+}
+
+section.card {
+  color: #2c3e50;
+}
+
+section.card .line:before,section.card .line:after, section.form .line:before,section.form .line:after {
+  background-color: #2c3e50;
+}
+
+section.card img {
+  width:100%;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+/* CARD IMAGE */
+
+/* ABOUT */
+
+section.about {
+  color: #FFF;
+}
+
+section.about p {
+  margin: 0 auto;
+  line-height: 25px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  text-align: left;
+  font-size: 20px;
+}
+
+section.about a {
+  margin-bottom: 30px;
+}
+
+.fa-download {
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+/* ABOUT */
+
+/* FORM */
+
+input, textarea {
+  width: 75%;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-width: 1px;
+  outline: none;
+}
+
+input {
+  padding: 10px 0;
+}
+
+::placeholder {
+  color: #2c3e50;
+  font-weight: 700;
+}
+/* FORM */
+
+/* FOOTER */
+
+h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+footer div.icon a {
+  padding-left: 5px;
+}
+
+footer div a i {
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  color: #FFF;
+}
+
+footer div p > a {
+  color: #1abc9c;
+}
+
+/* FOOTER */
+
+/* UTILITY */
+
+/* TITLE AND SUBTITLE LAYOUT */
 
 .line {
   width: 45%;
@@ -99,77 +212,16 @@ i {
   float: left;
 }
 
-section.jumbo p {
-  font-size: 16px;
-  margin-bottom: 40px;
-}
+/* TITLE AND SUBTITLE LAYOUT */
 
-h2 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 50px 0;
-}
-
-section.card {
-  color: #2c3e50;
-}
-
-section.card .line:before,section.card .line:after, section.form .line:before,section.form .line:after {
-  background-color: #2c3e50;
-}
-
-section.card img {
-  width:100%;
-  margin-bottom: 30px;
-  border-radius: 8px;
-}
-
-section.about {
-  color: #FFF;
-}
-
-section.about p {
-  width: 50%;
-  margin: 0 auto;
-  line-height: 25px;
-  font-weight: 400;
-  padding-bottom: 30px;
-  text-align: left;
-  font-size: 20px;
-}
-
-section.about a {
-  margin-bottom: 30px;
-}
-
-.fa-download {
-  font-size: 15px;
-  padding-right: 5px;
-}
-
-input, textarea {
-  width: 75%;
-  border-top-style: none;
-  border-right-style: none;
-  border-left-style: none;
-  border-width: 1px;
-  outline: none;
-}
-
-input {
-  padding: 10px 0;
-}
-
-::placeholder {
-  color: #2c3e50;
-  font-weight: 700;
-}
-
-
-/* UTILITY */
+/* COLOR */
 
 .bg-lightblue {
   background-color: #1abc9c;
+}
+
+.bg-blue-dark {
+background-color: #1a252f;
 }
 
 .bg-blue {
@@ -179,6 +231,14 @@ input {
 .color-blue {
   color: #2c3e50;
 }
+
+.color-white {
+  color: #FFF;
+}
+
+/* COLOR */
+
+/* BUTTON */
 
 .btn {
   color: #FFF;
@@ -190,6 +250,10 @@ input {
   border: 1px solid #FFF;
 }
 
+/* BUTTON */
+
+/* MARGIN */
+
 .mt-1 {
   margin-top: 20px;
 }
@@ -197,6 +261,55 @@ input {
 .mb-1 {
   margin-bottom: 20px;
 }
+
+/* MARGIN */
+
+/* PADDING */
+
+.pt-1 {
+  padding-top: 30px;
+}
+
+.pt-2 {
+  padding-top: 45px;
+}
+
+.pb-1 {
+  padding-bottom: 20px;
+}
+
+.pb-2 {
+  padding-bottom: 40px;
+}
+
+/* PADDING */
+
+/* ICONS */
+
+.fa-facebook-f {
+  font-size: 20px;
+  padding: 10px 13px;
+}
+
+.fa-google-plus-g {
+  font-size: 20px;
+  padding: 10px 8px;
+}
+
+
+.fa-twitter {
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+
+.fa-linkedin-in {
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+
+/* ICONS */
 
 /* TABLET */
 @media all and (min-width: 768px) {
